@@ -1,0 +1,106 @@
+.flex-container {
+    /* We first create a flex layout context */
+    display: flex;
+    
+    /* Then we define the flow direction 
+       and if we allow the items to wrap 
+     * Remember this is the same as:
+     * flex-direction: row;
+     * flex-wrap: wrap;
+     */
+    flex-flow: row wrap;
+    
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-top:60px;
+  }
+  
+  .flex-item {
+    background: tomato;
+    padding: 5px;
+    width: 60px;
+    height: 15px;
+    margin: 1px;
+    line-height: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 30;
+    text-align: center;
+  }
+  
+  .flex-container2 {
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+  }
+  
+  .flex-item2 {
+    background: yellow;
+    padding: 5px;
+    width: 60px;
+    height: 15px;
+    margin: 1px;
+    line-height: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 30;
+    text-align: center;
+  }
+  
+  .flex-container3 {
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+  }
+  
+  .flex-item3 {
+    background: green;
+    padding: 5px;
+    width: 60px;
+    height: 15px;
+    margin: 1px;
+    line-height: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 30;
+    text-align: center;
+  }
+  
+  .flex-container4 {
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+  }
+  
+  .flex-item4 {
+    background: blue;
+    padding: 5px;
+    width: 60px;
+    height: 15px;
+    margin: 1px;
+    line-height: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 30;
+    text-align: center;
+  }
+
+  body {
+      background-color: black;
+  }
